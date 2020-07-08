@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <main id="content">
+<?php echo 'ola k ase' ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'entry' ); ?>
 <?php comments_template(); ?>
